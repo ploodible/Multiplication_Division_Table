@@ -172,9 +172,5 @@ BoxLayout LM = new BoxLayout(cp, BoxLayout.PAGE_AXIS);
         div.addActionListener(this);
 
         jf.setVisible(true);
-
-
     }
-
-
     }
