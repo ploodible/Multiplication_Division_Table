@@ -16,7 +16,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class Practical extends JFrame implements ActionListener{
+public class MDT extends JFrame implements ActionListener{
 JFrame jf = new JFrame();
 Container cp = jf.getContentPane();
 JLabel mod = new JLabel("Enter the multiplier/divisor:");
@@ -43,7 +43,7 @@ public Integer rMod, rSums;
 BoxLayout LM = new BoxLayout(cp, BoxLayout.PAGE_AXIS);
 
     public static void main(String[] args) {
-        Practical prac = new Practical("Division and Multiplication Table");        
+        MDT prac = new MDT("Division and Multiplication Table");        
     }
 
     void createTable(Integer i, Integer j)
@@ -124,7 +124,7 @@ BoxLayout LM = new BoxLayout(cp, BoxLayout.PAGE_AXIS);
         }
     }
 
-    Practical(String title){
+    MDT(String title){
 
         jf.setTitle(title);
         jf.setSize(670,380);
